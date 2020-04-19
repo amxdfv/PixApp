@@ -1,0 +1,14 @@
+C:\Users\Aleksei.Morozov\source\repos\PixApp\bin\Debug\PixApp.exe.config
+C:\Users\Aleksei.Morozov\source\repos\PixApp\bin\Debug\PixApp.exe
+C:\Users\Aleksei.Morozov\source\repos\PixApp\bin\Debug\PixApp.pdb
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp.csprojAssemblyReference.cache
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\MainWindow.g.cs
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\App.g.cs
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp_MarkupCompile.cache
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp_MarkupCompile.lref
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\MainWindow.baml
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp.g.resources
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp.Properties.Resources.resources
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp.csproj.GenerateResource.cache
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp.exe
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Debug\PixApp.pdb

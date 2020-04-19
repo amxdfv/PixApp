@@ -1,0 +1,13 @@
+C:\Users\Aleksei.Morozov\source\repos\PixApp\bin\Release\PixApp.exe.config
+C:\Users\Aleksei.Morozov\source\repos\PixApp\bin\Release\PixApp.exe
+C:\Users\Aleksei.Morozov\source\repos\PixApp\bin\Release\PixApp.pdb
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\MainWindow.g.cs
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\App.g.cs
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp_MarkupCompile.cache
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp_MarkupCompile.lref
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\MainWindow.baml
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.g.resources
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.Properties.Resources.resources
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.csproj.GenerateResource.cache
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.exe
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.pdb
