@@ -62,19 +62,26 @@ namespace PixApp
             {
                 MessageBox.Show("Введи номальное число!","Ну что ж ты так!!!", MessageBoxButton.OK);
             }
-            
-            PixPrc PP = new PixPrc();
-            Bitmap pix_fin = PP.ImgProc(picture,itr);
-            System.Windows.Media.Imaging.BitmapSource b =
-    System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(
-           pix_fin.GetHbitmap(),
-           IntPtr.Zero,
-           Int32Rect.Empty,
-           BitmapSizeOptions.FromEmptyOptions());
-            Image2.Source = b;
 
-            picture_fin = pix_fin;
-           
+            if (itr > 0)        // проверяем, что человек не напутал с числом
+            {
+                PixPrc PP = new PixPrc();
+                Bitmap pix_fin = PP.ImgProc(picture, itr);
+                for (int i = 0; i < itr; i = i + 1)
+                {
+                    pix_fin = PP.ImgProc_p2(pix_fin);
+                }
+
+                System.Windows.Media.Imaging.BitmapSource b =
+               System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(
+               pix_fin.GetHbitmap(),
+               IntPtr.Zero,
+               Int32Rect.Empty,
+               BitmapSizeOptions.FromEmptyOptions());
+                Image2.Source = b;
+
+                picture_fin = pix_fin;
+            } 
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)   // сохраняем файл

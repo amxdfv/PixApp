@@ -45,5 +45,35 @@ namespace PixApp
 
         }
 
+
+        public Bitmap ImgProc_p2(Bitmap picture)   // восстанавливаем оригинальный размер изображения
+        {
+            Bitmap pic_orig = picture;
+
+            int height = pic_orig.Height*2;
+            int width = pic_orig.Width*2;
+            Bitmap pic_f = new Bitmap(width , height );
+            for (int y = 0; y < height/2; y = y + 1)
+            {
+                for (int x = 0; x < width/2; x = x + 1)
+                {
+                    int x1 = 2 * x;
+                    int y1 = 2 * y;
+                    int r = pic_orig.GetPixel(x, y).R;
+                    int g = pic_orig.GetPixel(x, y).G;
+                    int b = pic_orig.GetPixel(x, y).B;
+                    int a = pic_orig.GetPixel(x, y).A;
+                    Color clr = Color.FromArgb(a, r, g, b);
+                    pic_f.SetPixel(x1,y1,clr);
+                    pic_f.SetPixel(x1+1, y1, clr);
+                    pic_f.SetPixel(x1, y1+1, clr);
+                    pic_f.SetPixel(x1+1, y1+1, clr);
+                }
+            }
+            return pic_f;
+
+
+        }
+
     }
 }

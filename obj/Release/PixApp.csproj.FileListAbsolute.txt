@@ -11,3 +11,4 @@ C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.Properties.Resou
 C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.csproj.GenerateResource.cache
 C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.exe
 C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.pdb
+C:\Users\Aleksei.Morozov\source\repos\PixApp\obj\Release\PixApp.csprojAssemblyReference.cache
